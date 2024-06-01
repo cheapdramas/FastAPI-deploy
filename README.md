@@ -2,9 +2,9 @@
 
 ### We need:
 
--Account on Amazon Web Services
--EC2 instance
--FastAPI app
+- Account on Amazon Web Services
+- EC2 instance
+- FastAPI app
 
 ### Account on AWS
 
@@ -25,10 +25,10 @@ Find "Instances" tab in the left menu. Now what you should see is this page:
 ![](/src/ec2_instances.jpg)
 
 Click "Launch Instances" at the right top of page. Now you are launching a new EC2 instance.
-1.Pick a name for your instance
-2.For "Application and OS Images (Amazon Machine Image)" choose Ubuntu.
-3.For "Instance type" choose t3.micro cause it`s free
-4.For "Key pair (login)" press "Create new key pair". Enter key pair name, for "Key pair type" choose RSA, for "Private key file format" choose .pem. Click "Create key pair"
+- 1.Pick a name for your instance
+- 2.For "Application and OS Images (Amazon Machine Image)" choose Ubuntu.
+- 3.For "Instance type" choose t3.micro cause it`s free
+- 4.For "Key pair (login)" press "Create new key pair". Enter key pair name, for "Key pair type" choose RSA, for "Private key file format" choose .pem. Click "Create key pair"
 ![](/src/key_pair.jpg)
 
 Now, when you created a new key pair, click refresh button and choose your key pair.
