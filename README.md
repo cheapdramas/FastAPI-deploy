@@ -127,6 +127,35 @@ Caddy will help us with https protocol.
 
 - `sudo apt install caddy`
 
+##### Caddyfile config
+Make sure you are not in your repo directory, if you are : `cd ..`
+- `cat > Caddyfile`
+Paste text from this block code and replace text in <> with your variables
+```
+<YOUR IPv4>.nip.io{
+    reverse_proxy localhost:8000
+}
+
+```
+###### Where can i find my IPv4?
+
+![](/src/ipv4.jpg)
+
+This is your IPv4
+
+#### Caddy run
+Make sure you are not in your repo directory, if you are : `cd ..`
+- `sudo caddy run`
+
+
+
+
+
+
+
+#### Run caddy
+- `sudo caddy run`
+
 
 
 
