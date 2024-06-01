@@ -108,8 +108,24 @@ To see status of the service:
 ` sudo systemctl status  fastapi`
 
 
-- Last step is to activate service: `sudo systemctl start  fastapi` then ` sudo systemctl enable  fastapi`
+- Last step is for activate service: `sudo systemctl start  fastapi` then ` sudo systemctl enable  fastapi`
 
+
+
+### Caddy
+Caddy will help us with https protocol.
+
+## Installation:
+- `sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https`
+
+
+- `curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg`
+
+- `curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list`
+
+- `sudo apt update`
+
+- `sudo apt install caddy`
 
 
 
