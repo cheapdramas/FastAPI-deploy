@@ -153,12 +153,6 @@ Make sure you are not in your repo directory, if you are : `cd ..`
 
 
 
-#### Run caddy
-- `sudo caddy run`
-
-
-
-
 
 
 
