@@ -137,6 +137,7 @@ Paste text from this block code and replace text in <> with your variables
 }
 
 ```
+Hit "Ctrl + D"
 ###### Where can i find my IPv4?
 
 ![](/src/ipv4.jpg)
