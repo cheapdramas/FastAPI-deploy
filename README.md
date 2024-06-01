@@ -148,7 +148,9 @@ Make sure you are not in your repo directory, if you are : `cd ..`
 - `sudo caddy run`
 
 
+### Errors?
 
+If you have any errors, feel free to ask me about them. My discord: alohadance2009
 
 
 
