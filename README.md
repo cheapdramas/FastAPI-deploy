@@ -115,7 +115,7 @@ To see status of the service:
 ### Caddy
 Caddy will help us with https protocol.
 
-## Installation:
+# Installation:
 - `sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https`
 
 
