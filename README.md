@@ -58,16 +58,16 @@ Ok, so now what you should see is a linux terminal that represent our server.
 
 ### Creating FastAPI service
 
-- 1. `git clone <Your repository link>`
-- 2. `cd <Your repository name>`
-- 3. IF you have requirements follow by 5,6,7 steps, if you're not, ignore them
-- 4. `sudo apt update`
-- 5. `sudo apt install python3-pip`
-- 6. press y then enter
-- 7. `sudo pip install -r requirements.txt --break-system-packages`
-- 8. `cd ..` 
-- 9. `sudo pip install gunicorn --break-system-packages`
-- 10. `sudo nano /etc/systemd/system/fastapi.service` and paste block code below and change text in <> to your variables
+- 1 . `git clone <Your repository link>`
+- 2 . `cd <Your repository name>`
+- 3 . IF you have requirements follow by 5,6,7 steps, if you're not, ignore them
+- 4 . `sudo apt update`
+- 5 . `sudo apt install python3-pip`
+- 6 . press y then enter
+- 7 . `sudo pip install -r requirements.txt --break-system-packages`
+- 8 . `cd ..` 
+- 9 . `sudo pip install gunicorn --break-system-packages`
+- 10 . `sudo nano /etc/systemd/system/fastapi.service` and paste block code below and change text in <> to your variables
 
 ```
 
